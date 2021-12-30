@@ -12,13 +12,14 @@ public class DisplayLogic_2D : MonoBehaviour
     [TextArea(5,10)] public String projectInfo;     // information/description of project
     public String[] Names = new String[numWorks];      // names of students
     public Texture2D[] Images = new Texture2D[numWorks];     // references to render images
+    public Camera SceneCamera;      // main scene camera used for UI worldspace interaction
     
     void Start()
     {
-
         SetProjectInfo();
         SetCreatorNames();
         SetImages();
+        initiateCameraInUI();
     }
 
     private void SetProjectInfo()
@@ -54,5 +55,11 @@ public class DisplayLogic_2D : MonoBehaviour
                 100.0f
             );  
         }
+    }
+    
+    private void initiateCameraInUI()  // take scene camera and put it into UI Canvas to allow interaction
+    {
+        GameObject UI_interface = gameObject.transform.Find("UI").Find("UI_interface").gameObject;
+        UI_interface.GetComponent<Canvas>().worldCamera = SceneCamera;
     }
 }
