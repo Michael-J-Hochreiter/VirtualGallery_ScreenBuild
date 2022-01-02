@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c859c430-e741-4d16-ae22-76c8c1b066d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D Pictures.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D Pictures.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D info.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D_display_screens.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D_display_screens.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D_display_table.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D_display_table.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/DisplayLogic_2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/DisplayLogic_2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audio.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audio_display_booth.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audio_display_booth.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audio_display_table.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audio_display_table.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audiobooth.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audiobooth.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/DisplayLogic_Audio.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/DisplayLogic_Audio.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/pause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/pause.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/play.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D_Display_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D_Display_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audio_Display_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audio_Display_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641146312383</updated>
-      <workItem from="1641146326703" duration="374000" />
+      <workItem from="1641146326703" duration="655000" />
     </task>
     <servers />
   </component>
