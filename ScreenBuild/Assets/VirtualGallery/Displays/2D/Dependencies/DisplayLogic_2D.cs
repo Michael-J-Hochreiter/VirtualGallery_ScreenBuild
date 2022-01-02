@@ -25,7 +25,7 @@ public class DisplayLogic_2D : MonoBehaviour
     private void SetProjectInfo()
     {
         GameObject projectInfo_text = gameObject.transform.Find("UI").Find("UI_interface").Find("projectInfo_text").gameObject;
-        projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("Project Info: " + projectInfo);
+        projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("PROJECT INFO: " + projectInfo);
     }
 
     private void SetCreatorNames()
@@ -36,7 +36,7 @@ public class DisplayLogic_2D : MonoBehaviour
         {
             GameObject createdBy_text = UI.transform.Find("UI_image" + (i + 1)).Find("createdBy_text").gameObject;
             
-            createdBy_text.GetComponent<TextMeshProUGUI>().SetText("Created by: " + Names[i]);
+            createdBy_text.GetComponent<TextMeshProUGUI>().SetText("CREATED BY: " + Names[i]);
         }
     }
 
