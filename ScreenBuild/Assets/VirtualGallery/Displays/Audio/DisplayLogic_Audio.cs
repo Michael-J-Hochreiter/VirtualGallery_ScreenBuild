@@ -95,13 +95,13 @@ public class DisplayLogic_Audio : MonoBehaviour
     private void SetProjectInfo()
     {
         GameObject projectInfo_text = gameObject.transform.Find("UI").Find("UI_interface").Find("projectInfo_text").gameObject;
-        projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("Project Info: " + projectInfo);
+        projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("PROJECT INFO: " + projectInfo);
     }
 
     private void SetCreatorName()
     {
         GameObject createdBy_text = transform.Find("UI").Find("UI_interface").Find("createdBy_text").gameObject;
-        createdBy_text.GetComponent<TextMeshProUGUI>().SetText("Created by: " + Names[index]);
+        createdBy_text.GetComponent<TextMeshProUGUI>().SetText("CREATED BY: " + Names[index]);
     }
 
     private void SetAudioClip()
