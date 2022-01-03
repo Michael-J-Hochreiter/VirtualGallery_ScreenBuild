@@ -406,6 +406,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ffb4117cd9f19ec499bf1e47fd19074f, type: 3}
   m_PrefabInstance: {fileID: 193183015}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &204294187 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2743632665304254696, guid: 469a364204b333d4c8e25e5c69bf5a09, type: 3}
+  m_PrefabInstance: {fileID: 590098879}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81578cc65257604a92a614b2fe51a03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &204294188 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2743632664018275086, guid: 469a364204b333d4c8e25e5c69bf5a09, type: 3}
+  m_PrefabInstance: {fileID: 590098879}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65e64b9d708ee0442b87b20f29640f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &222483381
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +777,10 @@ PrefabInstance:
     - target: {fileID: 2743632664018275125, guid: 469a364204b333d4c8e25e5c69bf5a09, type: 3}
       propertyPath: m_Name
       value: ScriptManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2743632664018275125, guid: 469a364204b333d4c8e25e5c69bf5a09, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2743632665304254696, guid: 469a364204b333d4c8e25e5c69bf5a09, type: 3}
       propertyPath: sensitivitySlider
@@ -1287,6 +1313,22 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6205028796864696075, guid: b858a7b712f85d84d9bdc84136129c0b, type: 3}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: c4d5881807cb8544b88c68ab0d494bac, type: 2}
+    - target: {fileID: 6205028796930023839, guid: b858a7b712f85d84d9bdc84136129c0b, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 204294187}
+    - target: {fileID: 6205028796930023839, guid: b858a7b712f85d84d9bdc84136129c0b, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSensitivity
+      objectReference: {fileID: 0}
+    - target: {fileID: 6205028796930023839, guid: b858a7b712f85d84d9bdc84136129c0b, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: VirtualGallery.Scripts.SensitivityManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 6205028796965340879, guid: b858a7b712f85d84d9bdc84136129c0b, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
@@ -1335,6 +1377,18 @@ PrefabInstance:
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 2f4302e0695503e448674821bceddcb7, type: 3}
+    - target: {fileID: 6205028797643752491, guid: b858a7b712f85d84d9bdc84136129c0b, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 204294188}
+    - target: {fileID: 6205028797643752491, guid: b858a7b712f85d84d9bdc84136129c0b, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 6205028797643752491, guid: b858a7b712f85d84d9bdc84136129c0b, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: VirtualGallery.Scripts.SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 6205028797650911849, guid: b858a7b712f85d84d9bdc84136129c0b, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
@@ -1589,6 +1643,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5050604032435037490, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: a033fe7ed805b9a4da68e92c0e3d4e63, type: 2}
     - target: {fileID: 6932343599537262776, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
       propertyPath: m_RootOrder
       value: 5
