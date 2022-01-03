@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -82,15 +83,15 @@ namespace VirtualGallery.Scripts
 
         public void ChangeMode()
         {
-            var text = GameObject.Find("ThemeButton").GetComponentInChildren<Text>().text;
+            var text = GameObject.Find("ThemeButton").GetComponentInChildren<TextMeshProUGUI>().text;
 
             switch (text)
             {
                 case "LIGHT":
-                    GameObject.Find("ThemeButton").GetComponentInChildren<Text>().text = "DARK";
+                    GameObject.Find("ThemeButton").GetComponentInChildren<TextMeshProUGUI>().text = "DARK";
                     break;
                 case "DARK":
-                    GameObject.Find("ThemeButton").GetComponentInChildren<Text>().text = "LIGHT";
+                    GameObject.Find("ThemeButton").GetComponentInChildren<TextMeshProUGUI>().text = "LIGHT";
                     break;
             }
         }
