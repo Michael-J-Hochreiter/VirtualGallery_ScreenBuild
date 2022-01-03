@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c859c430-e741-4d16-ae22-76c8c1b066d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D_Display_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/2D/2D_Display_Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audio_Display_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Audio_Display_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Prefabs/ScriptManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Prefabs/ScriptManager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641146312383</updated>
       <workItem from="1641146326703" duration="655000" />
+      <workItem from="1641204995137" duration="1283000" />
     </task>
     <servers />
   </component>
