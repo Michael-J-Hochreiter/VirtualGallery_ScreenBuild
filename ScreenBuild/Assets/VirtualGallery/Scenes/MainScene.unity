@@ -1695,23 +1695,23 @@ PrefabInstance:
     - target: {fileID: -5770147364003215288, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 526617afdd42d27448465598f66e362e, type: 2}
+      objectReference: {fileID: 2100000, guid: a1b8f4d1636e6884b9ca0dabe72d0321, type: 2}
     - target: {fileID: -498906788600398988, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 555c8c590ca1bf14db1d97e72195c7ea, type: 2}
+      objectReference: {fileID: 2100000, guid: a1b8f4d1636e6884b9ca0dabe72d0321, type: 2}
     - target: {fileID: -498906788600398988, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 02cfbe13cbd33e548b4c3c78243cd64f, type: 2}
+      objectReference: {fileID: 2100000, guid: a1b8f4d1636e6884b9ca0dabe72d0321, type: 2}
     - target: {fileID: 199412614712552842, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b6b3e7c20addd4a8e68f494692e319, type: 2}
+      objectReference: {fileID: 2100000, guid: 824fc5a721444984db6f751378343ae4, type: 2}
     - target: {fileID: 199412614712552842, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 28a7a2f1410418e43b55c85450d27edf, type: 2}
+      objectReference: {fileID: 2100000, guid: 824fc5a721444984db6f751378343ae4, type: 2}
     - target: {fileID: 919132149155446097, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Name
       value: Raum_smallModel
@@ -1719,7 +1719,7 @@ PrefabInstance:
     - target: {fileID: 2676387928833186230, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 75c758daaf2d7ad4ab0f32d32a15a084, type: 2}
+      objectReference: {fileID: 2100000, guid: a1b8f4d1636e6884b9ca0dabe72d0321, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
 --- !u!4 &860300214 stripped
@@ -3331,7 +3331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6932343599537262776, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.073
+      value: -1.47
       objectReference: {fileID: 0}
     - target: {fileID: 6932343599537262776, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3339,7 +3339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6932343599537262776, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.18
+      value: -2.7
       objectReference: {fileID: 0}
     - target: {fileID: 6932343599537262776, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3368,6 +3368,14 @@ PrefabInstance:
     - target: {fileID: 6932343599537262776, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932391789893872854, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932391789893872854, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.238
       objectReference: {fileID: 0}
     - target: {fileID: 6934861293923576892, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
       propertyPath: m_Name
@@ -4409,7 +4417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.69, y: 0.615}
+  m_AnchoredPosition: {x: -0.69, y: 0.622}
   m_SizeDelta: {x: 100, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819389164
