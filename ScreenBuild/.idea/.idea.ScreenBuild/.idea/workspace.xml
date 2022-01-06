@@ -3,60 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c859c430-e741-4d16-ae22-76c8c1b066d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VIRTUAL GALLERY.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VIRTUAL GALLERY/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VIRTUAL GALLERY/UI/Audio.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D Auswahl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D Auswahl.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D Auswahl_pfeile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D Auswahl_pfeile.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D Info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D Info.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D Renderings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D Renderings.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D_Display_Mesh.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D_Display_Mesh.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D_Display_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/3D_Display_Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/DisplayLogic_3D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/DisplayLogic_3D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName/Work1_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName/Work1_image.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName/Work2_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName/Work2_image.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName/Work3_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName/Work3_image.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName/Work4_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName/Work4_image.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName/Work5_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/2D/Display1_SomeProjectName/Work5_image.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work1_image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work1_image1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work1_image2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work1_image2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work1_model.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work1_model.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work2_image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work2_image1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work2_image2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work2_image2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work2_model.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work2_model.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work3_image1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work3_image1.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work3_image2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work3_image2.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work3_model.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_SomeProjectName/Work3_model.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/Audio/Booth1_SomeProjectName.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/Audio/Booth1_SomeProjectName/eli_edited.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/Audio/Booth1_SomeProjectName/eli_edited.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/Audio/Booth1_SomeProjectName/michi_edited.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/Audio/Booth1_SomeProjectName/michi_edited.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/Audio/Booth1_SomeProjectName/yannick_edited.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/Audio/Booth1_SomeProjectName/yannick_edited.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/Dependencies/DisplayLogic_3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/Dependencies/DisplayLogic_3D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_RandomObjectsProjekt/Work1_image1.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display1_RandomObjectsProjekt/Work1_image1.jpg.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +61,7 @@
       <workItem from="1641146326703" duration="655000" />
       <workItem from="1641204995137" duration="1283000" />
       <workItem from="1641211147823" duration="1041000" />
-      <workItem from="1641462002993" duration="1031000" />
+      <workItem from="1641462002993" duration="2571000" />
     </task>
     <servers />
   </component>
