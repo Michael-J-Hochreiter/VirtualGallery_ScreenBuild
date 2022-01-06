@@ -80,12 +80,12 @@ public class DisplayLogic_3D : MonoBehaviour
 
     private void SetCreatorName()
     {
-        createdBy_text.GetComponent<TextMeshProUGUI>().SetText("Created by: " + Names[index]);
+        createdBy_text.GetComponent<TextMeshProUGUI>().SetText("CREATED BY:\n" + Names[index]);
     }
 
     private void SetProjectInfo()
     {
-        projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("Project Info: " + projectInfo);
+        projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("PROJECT INFO: " + projectInfo);
     }
 
     private void SetRenderImages()
