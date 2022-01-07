@@ -1,7 +1,6 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using VirtualArtGalleryAssets.scripts;
 
 //add script to canvas of the pause menu
@@ -41,38 +40,37 @@ namespace VirtualGallery.Scripts
 
         public void Resume()
         {
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().ResetSmoothing();
             var firstPersonLook = GameObject.Find("First person camera").GetComponent<FirstPersonLook>();
 
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
 
             pauseMenu.SetActive(false);
-            Time.timeScale = 1f;
             _gameIsPaused = false;
-            
             firstPersonLook.enabled = true;
+            Time.timeScale = 1f;
         }
 
         void Pause()
         {
             GameObject.Find("First person camera").GetComponent<FirstPersonLook>().ResetSmoothing();
-            
             var firstPersonLook = GameObject.Find("First person camera").GetComponent<FirstPersonLook>();
 
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
 
             pauseMenu.SetActive(true);
-            Time.timeScale = 0f;
             _gameIsPaused = true;
-            
             firstPersonLook.enabled = false;
+            
+            Time.timeScale = 0f;
         }
 
         public void Restart()
         {
             Pause();
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("MainScene");
             Resume();
         }
         
