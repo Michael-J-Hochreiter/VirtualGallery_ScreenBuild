@@ -67,5 +67,11 @@ namespace VirtualArtGalleryAssets.scripts
             transform.localRotation = Quaternion.AngleAxis(-currentMouseLook.y, Vector3.right);
             character.localRotation = Quaternion.AngleAxis(currentMouseLook.x, Vector3.up);
         }
+
+        public void SetLookAngle(float x, float y)
+        {
+            currentMouseLook.x = Mathf.Clamp(x, -90, 90);
+            currentMouseLook.y = Mathf.Clamp(y, -90, 90);
+        }
     }
 }

@@ -35,7 +35,6 @@ namespace VirtualGallery.Scripts
                     Pause();
                 }
             }
-            
         }
 
         public void Resume()
@@ -63,7 +62,7 @@ namespace VirtualGallery.Scripts
             pauseMenu.SetActive(true);
             _gameIsPaused = true;
             firstPersonLook.enabled = false;
-            
+
             Time.timeScale = 0f;
         }
 
@@ -73,7 +72,7 @@ namespace VirtualGallery.Scripts
             SceneManager.LoadScene("MainScene");
             Resume();
         }
-        
+
         public void QuitGame()
         {
             Application.Quit();
@@ -97,36 +96,42 @@ namespace VirtualGallery.Scripts
         public void Teleport3D()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleport3D.transform.position;
         }
 
         public void Teleport2D()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleport2D.transform.position;
         }
 
         public void TeleportCode()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleportVideo.transform.position;
         }
 
         public void TeleportVideo()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleportAudio.transform.position;
         }
 
         public void TeleportAudio()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleportCode.transform.position;
         }
 
         public void TeleportLobby()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleportLobby.transform.position;
         }
     }
