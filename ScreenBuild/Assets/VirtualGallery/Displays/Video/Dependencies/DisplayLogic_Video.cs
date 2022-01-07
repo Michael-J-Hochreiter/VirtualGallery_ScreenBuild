@@ -6,7 +6,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
-
+  
 public class DisplayLogic_Video : MonoBehaviour
 {
     private const int numWorks = 2;     // total number of works in 3D-display
@@ -63,6 +63,8 @@ public class DisplayLogic_Video : MonoBehaviour
         SetProjectTitles();
         LoadProject(0);
         SetAudioSource();
+        
+        videoPlayer.GetComponent<VideoPlayer>().targetTexture.Release();
         
         Pause();
     }
@@ -135,6 +137,8 @@ public class DisplayLogic_Video : MonoBehaviour
     {
         SetCreatorName();
         SetVideoClip();
+        videoPlayer.GetComponent<VideoPlayer>().targetTexture.Release();
+        Play();
     }
 
     private void SetCreatorName()
