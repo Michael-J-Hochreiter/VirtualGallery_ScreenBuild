@@ -6,7 +6,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
-
+  
 public class DisplayLogic_Video : MonoBehaviour
 {
     private const int numWorks = 2;     // total number of works in 3D-display
@@ -44,22 +44,27 @@ public class DisplayLogic_Video : MonoBehaviour
     public VideoClip[] project2Videos = new VideoClip[numWorks];      // video clips of each work
     
     public Camera SceneCamera;      // main scene camera used for UI worldspace interaction
-
-
+    
     private GameObject UI_interface;
     private GameObject videoPlayer;
+    private AudioSource audioSource;
     private GameObject playPause_button;
+    
 
 
     void Start()
     {
         UI_interface = gameObject.transform.Find("UI").Find("UI_interface").gameObject;
-        videoPlayer = gameObject.transform.Find("VideoPlayer").gameObject;
+        videoPlayer = gameObject.transform.Find("videoPlayer").gameObject;
+        audioSource = gameObject.transform.Find("audioSource").gameObject.GetComponent<AudioSource>();
         playPause_button = gameObject.transform.Find("UI").Find("UI_interface").Find("playPause_button").gameObject;
-
+        
         initiateCameraInUI();
         SetProjectTitles();
         LoadProject(0);
+        SetAudioSource();
+        
+        videoPlayer.GetComponent<VideoPlayer>().targetTexture.Release();
         
         Pause();
     }
@@ -132,6 +137,8 @@ public class DisplayLogic_Video : MonoBehaviour
     {
         SetCreatorName();
         SetVideoClip();
+        videoPlayer.GetComponent<VideoPlayer>().targetTexture.Release();
+        Play();
     }
 
     private void SetCreatorName()
@@ -141,13 +148,13 @@ public class DisplayLogic_Video : MonoBehaviour
         switch (indexProjects)
         {
             case 0:
-                createdBy_text.GetComponent<TextMeshProUGUI>().SetText("Created by: " + project0CreatorNames[indexWorks]);
+                createdBy_text.GetComponent<TextMeshProUGUI>().SetText("CREATED BY: " + project0CreatorNames[indexWorks]);
                 break;
             case 1:
-                createdBy_text.GetComponent<TextMeshProUGUI>().SetText("Created by: " + project1CreatorNames[indexWorks]);
+                createdBy_text.GetComponent<TextMeshProUGUI>().SetText("CREATED BY: " + project1CreatorNames[indexWorks]);
                 break;
             case 2:
-                createdBy_text.GetComponent<TextMeshProUGUI>().SetText("Created by: " + project2CreatorNames[indexWorks]);
+                createdBy_text.GetComponent<TextMeshProUGUI>().SetText("CREATED BY: " + project2CreatorNames[indexWorks]);
                 break;
         }
     }
@@ -159,13 +166,13 @@ public class DisplayLogic_Video : MonoBehaviour
         switch (indexProjects)
         {
             case 0:
-                projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("Project Info: " + project0Info);
+                projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("PROJECT INFO: " + project0Info);
                 break;
             case 1:
-                projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("Project Info: " + project1Info);
+                projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("PROJECT INFO: " + project1Info);
                 break;
             case 2:
-                projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("Project Info: " + project2Info);
+                projectInfo_text.GetComponent<TextMeshProUGUI>().SetText("PROJECT INFO: " + project2Info);
                 break;
         }
         
@@ -242,5 +249,10 @@ public class DisplayLogic_Video : MonoBehaviour
         */
         
         // doesnt work lmfao
+    }
+
+    private void SetAudioSource()
+    {
+        videoPlayer.GetComponent<VideoPlayer>().SetTargetAudioSource(0, audioSource);
     }
 }
