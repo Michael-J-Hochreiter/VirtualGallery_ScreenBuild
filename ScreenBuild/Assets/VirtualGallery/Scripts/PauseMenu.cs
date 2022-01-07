@@ -1,7 +1,6 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using VirtualArtGalleryAssets.scripts;
 
 //add script to canvas of the pause menu
@@ -36,46 +35,44 @@ namespace VirtualGallery.Scripts
                     Pause();
                 }
             }
-            
         }
 
         public void Resume()
         {
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().ResetSmoothing();
             var firstPersonLook = GameObject.Find("First person camera").GetComponent<FirstPersonLook>();
 
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
 
             pauseMenu.SetActive(false);
-            Time.timeScale = 1f;
             _gameIsPaused = false;
-            
             firstPersonLook.enabled = true;
+            Time.timeScale = 1f;
         }
 
         void Pause()
         {
             GameObject.Find("First person camera").GetComponent<FirstPersonLook>().ResetSmoothing();
-            
             var firstPersonLook = GameObject.Find("First person camera").GetComponent<FirstPersonLook>();
 
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
 
             pauseMenu.SetActive(true);
-            Time.timeScale = 0f;
             _gameIsPaused = true;
-            
             firstPersonLook.enabled = false;
+
+            Time.timeScale = 0f;
         }
 
         public void Restart()
         {
             Pause();
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("MainScene");
             Resume();
         }
-        
+
         public void QuitGame()
         {
             Application.Quit();
@@ -99,36 +96,42 @@ namespace VirtualGallery.Scripts
         public void Teleport3D()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleport3D.transform.position;
         }
 
         public void Teleport2D()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleport2D.transform.position;
         }
 
         public void TeleportCode()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleportVideo.transform.position;
         }
 
         public void TeleportVideo()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleportAudio.transform.position;
         }
 
         public void TeleportAudio()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleportCode.transform.position;
         }
 
         public void TeleportLobby()
         {
             Resume();
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
             player.transform.position = teleportLobby.transform.position;
         }
     }
