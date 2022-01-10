@@ -208,20 +208,29 @@ public class DisplayLogic_Video : MonoBehaviour
 
     private void SetProjectButtonColors(int index)
     {
-        UI_interface.transform.Find("project0_button").gameObject.GetComponent<Image>().color = Color.grey;
-        UI_interface.transform.Find("project1_button").gameObject.GetComponent<Image>().color = Color.grey;
-        UI_interface.transform.Find("project2_button").gameObject.GetComponent<Image>().color = Color.grey;
+        Vector4 selectedColor = new Vector4(0.1529412f, 0.5882353f, 0.8588235f, 0.8f);
+        Vector4 unselectedColor = new Vector4(1.0f, 1.0f, 1.0f, 0.6f);
         
+        var selectedButtonColors =  UI_interface.transform.Find("project0_button").gameObject.GetComponent<Button>().colors;
+        var unselectedButtonColors = selectedButtonColors;
+        
+        selectedButtonColors.normalColor = selectedColor;
+        unselectedButtonColors.normalColor = unselectedColor;
+        
+        UI_interface.transform.Find("project0_button").gameObject.GetComponent<Button>().colors = unselectedButtonColors;
+        UI_interface.transform.Find("project1_button").gameObject.GetComponent<Button>().colors = unselectedButtonColors;
+        UI_interface.transform.Find("project2_button").gameObject.GetComponent<Button>().colors = unselectedButtonColors;
+
         switch (index)      // change color of buttons in UI so signal selected project
         {
             case 0:
-                UI_interface.transform.Find("project0_button").gameObject.GetComponent<Image>().color = Color.green;
+                UI_interface.transform.Find("project0_button").gameObject.GetComponent<Button>().colors = selectedButtonColors;
                 break;
             case 1:
-                UI_interface.transform.Find("project1_button").gameObject.GetComponent<Image>().color = Color.green;
+                UI_interface.transform.Find("project1_button").gameObject.GetComponent<Button>().colors = selectedButtonColors;
                 break;
             case 2:
-                UI_interface.transform.Find("project2_button").gameObject.GetComponent<Image>().color = Color.green;
+                UI_interface.transform.Find("project2_button").gameObject.GetComponent<Button>().colors = selectedButtonColors;
                 break;
         }
     }

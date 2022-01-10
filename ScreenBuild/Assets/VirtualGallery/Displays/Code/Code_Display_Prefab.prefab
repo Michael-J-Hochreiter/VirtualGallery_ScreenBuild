@@ -645,7 +645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.61960787}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -683,9 +683,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.7264151, g: 0.28554046, b: 0.28554046, a: 1}
-    m_PressedColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_HighlightedColor: {r: 0.15118067, g: 0.58678013, b: 0.8584906, a: 0.39215687}
+    m_PressedColor: {r: 0.15294118, g: 0.5882353, b: 0.85882354, a: 0.78431374}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -706,8 +706,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DisplayLogic_Video, Assembly-CSharp
+      - m_Target: {fileID: 4901639078123302798}
+        m_TargetAssemblyTypeName: DisplayLogic_Code, Assembly-CSharp
         m_MethodName: LoadProject
         m_Mode: 3
         m_Arguments:
@@ -718,6 +718,133 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &2002809803102899674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8781980305338769397}
+  - component: {fileID: 5511634931453605388}
+  m_Layer: 0
+  m_Name: audioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8781980305338769397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002809803102899674}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.506, z: 1.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1138852391545240830}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &5511634931453605388
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002809803102899674}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 5
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2059624891475472835
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,8 +967,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DisplayLogic_Video, Assembly-CSharp
+      - m_Target: {fileID: 4901639078123302798}
+        m_TargetAssemblyTypeName: DisplayLogic_Code, Assembly-CSharp
         m_MethodName: PlayPause
         m_Mode: 1
         m_Arguments:
@@ -986,6 +1113,72 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3581541795485934478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6827860669166852654}
+  - component: {fileID: 8152449014095636374}
+  m_Layer: 0
+  m_Name: videoPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6827860669166852654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3581541795485934478}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.67237, y: -3.0851362, z: -4.5239162}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1138852391545240830}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!328 &8152449014095636374
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3581541795485934478}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 0}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 8600000, guid: 4d778d7e2bee43346b2401575be818b6, type: 2}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: _MainTex
+  m_RenderMode: 2
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 1
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 0
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
 --- !u!64 &2129749857366821198
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1180,8 +1373,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DisplayLogic_Video, Assembly-CSharp
+      - m_Target: {fileID: 4901639078123302798}
+        m_TargetAssemblyTypeName: DisplayLogic_Code, Assembly-CSharp
         m_MethodName: NextWork
         m_Mode: 1
         m_Arguments:
@@ -1520,7 +1713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6431373}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1558,9 +1751,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.7264151, g: 0.28554046, b: 0.28554046, a: 1}
-    m_PressedColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_HighlightedColor: {r: 0.15294118, g: 0.5882353, b: 0.85882354, a: 0.39215687}
+    m_PressedColor: {r: 0.15294118, g: 0.5882353, b: 0.85882354, a: 0.78431374}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1581,8 +1774,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DisplayLogic_Video, Assembly-CSharp
+      - m_Target: {fileID: 4901639078123302798}
+        m_TargetAssemblyTypeName: DisplayLogic_Code, Assembly-CSharp
         m_MethodName: LoadProject
         m_Mode: 3
         m_Arguments:
@@ -1774,7 +1967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7830189, g: 0.21791564, b: 0.21791564, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.65882355}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1812,9 +2005,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.7264151, g: 0.28554046, b: 0.28554046, a: 1}
-    m_PressedColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_HighlightedColor: {r: 0.15294118, g: 0.5882353, b: 0.85882354, a: 0.39215687}
+    m_PressedColor: {r: 0.15294118, g: 0.5882353, b: 0.85882354, a: 0.78431374}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1835,8 +2028,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DisplayLogic_Video, Assembly-CSharp
+      - m_Target: {fileID: 4901639078123302798}
+        m_TargetAssemblyTypeName: DisplayLogic_Code, Assembly-CSharp
         m_MethodName: LoadProject
         m_Mode: 3
         m_Arguments:
@@ -2086,6 +2279,8 @@ Transform:
   m_Children:
   - {fileID: 5985645272337123803}
   - {fileID: 7683195204201251015}
+  - {fileID: 6827860669166852654}
+  - {fileID: 8781980305338769397}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2101,6 +2296,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9d422c8031a72144b85ca706e6a46aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  project0Title: 
+  project0Info: 
+  project0CreatorNames:
+  - 
+  - 
+  project0Videos:
+  - {fileID: 0}
+  - {fileID: 0}
+  project1Title: 
+  project1Info: 
+  project1CreatorNames:
+  - 
+  - 
+  project1Videos:
+  - {fileID: 0}
+  - {fileID: 0}
+  project2Title: 
+  project2Info: 
+  project2CreatorNames:
+  - 
+  - 
+  project2Videos:
+  - {fileID: 0}
+  - {fileID: 0}
+  SceneCamera: {fileID: 0}
 --- !u!1 &8980329584062331655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2222,8 +2442,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: DisplayLogic_Video, Assembly-CSharp
+      - m_Target: {fileID: 4901639078123302798}
+        m_TargetAssemblyTypeName: DisplayLogic_Code, Assembly-CSharp
         m_MethodName: PrevWork
         m_Mode: 1
         m_Arguments:
@@ -2397,6 +2617,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a3c2a4eab4dc32145bb3e47ae04c6c56, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fd7d964f12cf404382fa78a54c878ae, type: 3}
+--- !u!4 &7767971351893937553 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9fd7d964f12cf404382fa78a54c878ae, type: 3}
+  m_PrefabInstance: {fileID: 7802444249809676922}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4828582243472893393 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3406208147642388395, guid: 9fd7d964f12cf404382fa78a54c878ae, type: 3}
@@ -2407,18 +2632,13 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3982170974150580519, guid: 9fd7d964f12cf404382fa78a54c878ae, type: 3}
   m_PrefabInstance: {fileID: 7802444249809676922}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3743694379187085066 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -2327341179401439888, guid: 9fd7d964f12cf404382fa78a54c878ae, type: 3}
-  m_PrefabInstance: {fileID: 7802444249809676922}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3827387813251686917 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6438534779183253631, guid: 9fd7d964f12cf404382fa78a54c878ae, type: 3}
   m_PrefabInstance: {fileID: 7802444249809676922}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &7767971351893937553 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9fd7d964f12cf404382fa78a54c878ae, type: 3}
+--- !u!1 &3743694379187085066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2327341179401439888, guid: 9fd7d964f12cf404382fa78a54c878ae, type: 3}
   m_PrefabInstance: {fileID: 7802444249809676922}
   m_PrefabAsset: {fileID: 0}

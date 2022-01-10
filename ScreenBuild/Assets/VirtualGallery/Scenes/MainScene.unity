@@ -224,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0a21441bd3ba09541a3f0889e14dbbe5, type: 2}
     - target: {fileID: 5346163179444268258, guid: a225231c365661a44b6cb9031391bfaa, type: 3}
       propertyPath: m_Name
-      value: 2D_Display1
+      value: 2D_Display_1
       objectReference: {fileID: 0}
     - target: {fileID: 7612936994770117645, guid: a225231c365661a44b6cb9031391bfaa, type: 3}
       propertyPath: m_RootOrder
@@ -1185,7 +1185,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 712515fd126d338429dd11a9e1887d2a, type: 2}
     - target: {fileID: 1514555300211439135, guid: 967de7bc9e4465841ab572e158e953d2, type: 3}
       propertyPath: m_Name
-      value: Audio_Display1
+      value: Audio_Display_1
       objectReference: {fileID: 0}
     - target: {fileID: 3003508848686406802, guid: 967de7bc9e4465841ab572e158e953d2, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1672,7 +1672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7060174285610315379, guid: f229446d243f76e46af3f683af9630cb, type: 3}
       propertyPath: m_Name
-      value: Video_Display_Prefab
+      value: Video_Display_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f229446d243f76e46af3f683af9630cb, type: 3}
@@ -4841,7 +4841,7 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: afa6c884eef434a4da8b665203aa6893, type: 3}
     - target: {fileID: 9167047690417066065, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
       propertyPath: m_Name
-      value: 3D_Display_Prefab
+      value: 3D_Display_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
@@ -6421,7 +6421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1138852391545240830, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.021
+      value: -1.365
       objectReference: {fileID: 0}
     - target: {fileID: 1138852391545240830, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6455,9 +6455,85 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: SceneCamera
+      value: 
+      objectReference: {fileID: 555567712}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project0Info
+      value: WHAT THE DOG DOIN?????
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project1Info
+      value: 'ID even kniw wtha is going on here dude i just have a '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project2Info
+      value: SOmE SERIOUS WORK YOO!! EYO MISTA WHITE!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project0Title
+      value: 'dog '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project1Title
+      value: yourmom
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project2Title
+      value: seriiious
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project0Videos.Array.data[0]
+      value: 
+      objectReference: {fileID: 32900000, guid: a0704c9ab0fe9df48945d94960880296, type: 3}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project0Videos.Array.data[1]
+      value: 
+      objectReference: {fileID: 32900000, guid: 8043d11dcd0f70f4a9cb873e711a4d2f, type: 3}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project1Videos.Array.data[0]
+      value: 
+      objectReference: {fileID: 32900000, guid: 23c668f5b940b6b4d8ac6471f6c8868b, type: 3}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project1Videos.Array.data[1]
+      value: 
+      objectReference: {fileID: 32900000, guid: 5a1112a9225e25a49a6514dbe458fd9f, type: 3}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project2Videos.Array.data[0]
+      value: 
+      objectReference: {fileID: 32900000, guid: f1d13198fe148e743869ec216c690684, type: 3}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project2Videos.Array.data[1]
+      value: 
+      objectReference: {fileID: 32900000, guid: e7a3a8488a3e4ac4683515ce739ae80b, type: 3}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project0CreatorNames.Array.data[0]
+      value: Streamer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project0CreatorNames.Array.data[1]
+      value: memepage
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project1CreatorNames.Array.data[0]
+      value: gerald und michi
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project1CreatorNames.Array.data[1]
+      value: uuhhhh
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project2CreatorNames.Array.data[0]
+      value: michi
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901639078123302798, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
+      propertyPath: project2CreatorNames.Array.data[1]
+      value: auch michi
+      objectReference: {fileID: 0}
     - target: {fileID: 8892516347599656857, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
       propertyPath: m_Name
-      value: Code_Display_Prefab
+      value: Code_Display_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e83800560d5d7db4c8c000444de4cf68, type: 3}
