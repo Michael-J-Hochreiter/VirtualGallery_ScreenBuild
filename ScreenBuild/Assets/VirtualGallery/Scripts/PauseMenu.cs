@@ -14,6 +14,7 @@ namespace VirtualGallery.Scripts
     {
         private bool _gameIsPaused;
         public GameObject pauseMenu;
+        public GameObject buttonHint;
         public GameObject player;
         public GameObject teleport3D;
         public GameObject teleport2D;
@@ -45,6 +46,7 @@ namespace VirtualGallery.Scripts
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
 
+            buttonHint.SetActive(true);
             pauseMenu.SetActive(false);
             _gameIsPaused = false;
             firstPersonLook.enabled = true;
@@ -59,6 +61,7 @@ namespace VirtualGallery.Scripts
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
 
+            buttonHint.SetActive(false);
             pauseMenu.SetActive(true);
             _gameIsPaused = true;
             firstPersonLook.enabled = false;
