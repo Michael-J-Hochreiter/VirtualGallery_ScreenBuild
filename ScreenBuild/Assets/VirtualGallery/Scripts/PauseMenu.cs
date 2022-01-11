@@ -17,12 +17,16 @@ namespace VirtualGallery.Scripts
         public GameObject pauseMenu;
         public GameObject buttonHint;
         public GameObject player;
+        
         public GameObject teleport3D;
         public GameObject teleport2D;
         public GameObject teleportVideo;
         public GameObject teleportAudio;
         public GameObject teleportCode;
         public GameObject teleportLobby;
+        
+        public Button backButton;
+        public TextMeshProUGUI interactionHintText;
 
         void Update()
         {
@@ -43,12 +47,12 @@ namespace VirtualGallery.Scripts
         {
             GameObject.Find("First person camera").GetComponent<FirstPersonLook>().ResetSmoothing();
             var firstPersonLook = GameObject.Find("First person camera").GetComponent<FirstPersonLook>();
-            var backButton = GameObject.Find("BackButton").GetComponent<Button>();
 
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
 
             backButton.onClick.Invoke();
+            interactionHintText.enabled = true;
             buttonHint.SetActive(true);
             pauseMenu.SetActive(false);
             _gameIsPaused = false;
@@ -64,6 +68,7 @@ namespace VirtualGallery.Scripts
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
 
+            interactionHintText.enabled = false;
             buttonHint.SetActive(false);
             pauseMenu.SetActive(true);
             _gameIsPaused = true;

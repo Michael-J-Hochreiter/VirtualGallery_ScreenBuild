@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -7,10 +8,17 @@ namespace VirtualGallery.Scripts
     {
         public TextMeshProUGUI interactionHintText;
         private float _duration = 5.0f;
+        private float _elapsedTime;
+
+
+        private void Start()
+        {
+            _elapsedTime = Time.time;
+        }
 
         void Update()
         {
-            if (Time.time > _duration || Input.GetKey(KeyCode.Space))
+            if (_elapsedTime > _duration || Input.GetKey(KeyCode.Space))
             {
                 interactionHintText.CrossFadeAlpha(0, 0.5f, false);
             }
