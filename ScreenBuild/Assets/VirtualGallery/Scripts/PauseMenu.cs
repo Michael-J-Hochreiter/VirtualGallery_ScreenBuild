@@ -52,7 +52,6 @@ namespace VirtualGallery.Scripts
             Cursor.lockState = CursorLockMode.Locked;
 
             backButton.onClick.Invoke();
-            interactionHintText.enabled = true;
             buttonHint.SetActive(true);
             pauseMenu.SetActive(false);
             _gameIsPaused = false;

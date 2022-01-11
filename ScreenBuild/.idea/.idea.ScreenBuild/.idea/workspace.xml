@@ -18,12 +18,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/VirtualGallery/Scripts/InteractionHint.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="239VUxyHblDFL2RPfBOJTXZvHBy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -75,7 +78,7 @@
       <workItem from="1641462002993" duration="3346000" />
       <workItem from="1641559457707" duration="4261000" />
       <workItem from="1641847881885" duration="2384000" />
-      <workItem from="1641888962160" duration="2845000" />
+      <workItem from="1641888962160" duration="3608000" />
     </task>
     <servers />
   </component>
@@ -97,6 +100,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
