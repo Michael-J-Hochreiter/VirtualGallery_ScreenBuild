@@ -1,18 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
-public class InteractionHint : MonoBehaviour
+namespace VirtualGallery.Scripts
 {
-    // Start is called before the first frame update
-    void Start()
+    public class InteractionHint : MonoBehaviour
     {
-        
-    }
+        public TextMeshProUGUI interactionHintText;
+        private float _elapsedTime;
 
-    // Update is called once per frame
-    void Update()
-    {
+        void Awake()
+        {
+            _elapsedTime = Time.time;
+        }
         
+        void Update()
+        {
+            Debug.Log(_elapsedTime);
+            interactionHintText.CrossFadeAlpha(0, 1.0f, true);
+        }
     }
 }
