@@ -74,7 +74,9 @@ namespace VirtualGallery.Scripts
 
         public void Restart()
         {
+            Pause();
             SceneManager.LoadScene("MainScene");
+            Resume();
         }
 
         public void QuitGame()

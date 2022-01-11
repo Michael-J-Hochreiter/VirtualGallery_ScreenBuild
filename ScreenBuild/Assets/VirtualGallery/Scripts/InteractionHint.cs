@@ -6,17 +6,16 @@ namespace VirtualGallery.Scripts
     public class InteractionHint : MonoBehaviour
     {
         public TextMeshProUGUI interactionHintText;
-        private float _elapsedTime;
+        private float _duration = 5.0f;
 
-        void Awake()
-        {
-            _elapsedTime = Time.time;
-        }
-        
         void Update()
         {
-            Debug.Log(_elapsedTime);
-            interactionHintText.CrossFadeAlpha(0, 1.0f, true);
+            if (Time.time > _duration || Input.GetKey(KeyCode.Space))
+            {
+                interactionHintText.CrossFadeAlpha(0, 0.5f, false);
+            }
+
+            Debug.Log(Time.time);
         }
     }
 }
