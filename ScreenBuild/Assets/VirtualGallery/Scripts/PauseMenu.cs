@@ -2,7 +2,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using VirtualArtGalleryAssets.scripts;
 
 //add script to canvas of the pause menu
 

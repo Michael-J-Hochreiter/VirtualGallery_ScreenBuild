@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c859c430-e741-4d16-ae22-76c8c1b066d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/PostProcessing/CameraFX.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/PostProcessing/CameraFX.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/FirstPersonLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/FirstPersonLook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/FirstPersonMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/FirstPersonMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/PauseMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/SensitivityManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/SensitivityManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +81,7 @@
       <workItem from="1641462002993" duration="3346000" />
       <workItem from="1641559457707" duration="4261000" />
       <workItem from="1641847881885" duration="2384000" />
-      <workItem from="1641888962160" duration="4526000" />
+      <workItem from="1641888962160" duration="5497000" />
     </task>
     <servers />
   </component>
