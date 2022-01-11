@@ -7,7 +7,7 @@ namespace VirtualArtGalleryAssets.scripts
         public float speed = 5;
         Vector2 velocity;
 
-        void FixedUpdate()
+        void Update()
         {
             velocity.y = Input.GetAxis("Vertical") * speed * Time.deltaTime;
             velocity.x = Input.GetAxis("Horizontal") * speed * Time.deltaTime;

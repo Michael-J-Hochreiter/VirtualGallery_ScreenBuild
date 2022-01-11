@@ -21,7 +21,7 @@ namespace VirtualArtGalleryAssets.scripts
             Cursor.lockState = CursorLockMode.Locked;
         }
 
-        void FixedUpdate()
+        void Update()
         {
             if (!cursorUnlocked)
             {
