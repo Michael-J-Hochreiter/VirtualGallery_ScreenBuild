@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c859c430-e741-4d16-ae22-76c8c1b066d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/FirstPersonLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/FirstPersonLook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/FirstPersonMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/FirstPersonMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scripts/PauseMenu.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +12,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/VirtualGallery/Scripts/InteractionHint.cs" root0="FORCE_HIGHLIGHTING" />
@@ -83,7 +87,7 @@
       <workItem from="1641847881885" duration="2384000" />
       <workItem from="1641888962160" duration="8178000" />
       <workItem from="1641905212839" duration="1039000" />
-      <workItem from="1641998416454" duration="631000" />
+      <workItem from="1641998416454" duration="4161000" />
     </task>
     <servers />
   </component>
