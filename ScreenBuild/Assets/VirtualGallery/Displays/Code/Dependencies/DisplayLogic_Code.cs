@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
   
-public class DisplayLogic_Video : MonoBehaviour
+public class DisplayLogic_Code : MonoBehaviour
 {
     private const int numWorks = 2;     // total number of works in 3D-display
     private const int numProjects = 3;      // total number of projects (colletions of works) to be displayed in video-display
