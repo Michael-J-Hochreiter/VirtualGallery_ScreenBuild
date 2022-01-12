@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using VirtualArtGalleryAssets.scripts;
 
 //add script to ui slider
 
