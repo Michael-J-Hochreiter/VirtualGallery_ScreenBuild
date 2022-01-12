@@ -6953,8 +6953,8 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7038274416249526236, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
-      propertyPath: smoothing
-      value: 2
+      propertyPath: sensitivity
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 206cd36c2e74bcf4ea90842651a88436, type: 3}
