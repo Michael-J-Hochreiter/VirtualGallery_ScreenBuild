@@ -10667,7 +10667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 6205028796379293475}
-  buttonHint: {fileID: 0}
+  buttonHint: {fileID: 120069132}
   player: {fileID: 413511618}
   teleport3D: {fileID: 325455497}
   teleport2D: {fileID: 748529056}
@@ -10676,7 +10676,7 @@ MonoBehaviour:
   teleportCode: {fileID: 2080886082}
   teleportLobby: {fileID: 222483381}
   backButton: {fileID: 1274115638}
-  interactionHintText: {fileID: 0}
+  interactionHintText: {fileID: 1034792850}
   displayParent: {fileID: 1761410575}
 --- !u!114 &6205028797054874562
 MonoBehaviour:
