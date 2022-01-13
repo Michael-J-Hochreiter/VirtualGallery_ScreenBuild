@@ -194,7 +194,7 @@ namespace VirtualGallery.Scripts
             for (int i = 0; i < videoDisplays.Count; i++)
             {
                 videoDisplays[i].GetComponent<DisplayLogic_Video>().PlayPause();
-                videoDisplays[i].GetComponent<DisplayLogic_Video>().pla
+                //videoDisplays[i].GetComponent<DisplayLogic_Video>().pla
             }
             /*
             for (int i = 0; i < codeDisplays.Count; i++)
