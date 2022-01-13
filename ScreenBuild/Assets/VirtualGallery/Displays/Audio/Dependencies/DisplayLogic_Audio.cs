@@ -69,7 +69,7 @@ public class DisplayLogic_Audio : MonoBehaviour
         }
     }
 
-    private void Play()
+    public void Play()
     {
         GlobalAudioSource.volume = globalAudioMinVolume;
         localAudioSource.Play();
@@ -77,12 +77,17 @@ public class DisplayLogic_Audio : MonoBehaviour
         playPause_button.transform.Find("pause_image").gameObject.SetActive(true);
     }
 
-    private void Pause()
+    public void Pause()
     {
         GlobalAudioSource.volume = globalAudioMaxVolume;
         localAudioSource.Pause();
         playPause_button.transform.Find("play_image").gameObject.SetActive(true);
         playPause_button.transform.Find("pause_image").gameObject.SetActive(false);
+    }
+    
+    public bool isPaused()
+    {
+        return !localAudioSource.isPlaying;
     }
 
     private void LoadWork()

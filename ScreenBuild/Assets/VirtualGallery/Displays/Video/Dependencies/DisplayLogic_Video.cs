@@ -116,7 +116,7 @@ public class DisplayLogic_Video : MonoBehaviour
         }
     }
 
-    private void Play()
+    public void Play()
     {
         videoPlayer.GetComponent<VideoPlayer>().Prepare();
         videoPlayer.GetComponent<VideoPlayer>().Play();
@@ -125,13 +125,17 @@ public class DisplayLogic_Video : MonoBehaviour
         
     }
     
-    private void Pause()
+    public void Pause()
     {
         videoPlayer.GetComponent<VideoPlayer>().Pause();
         playPause_button.transform.Find("play_image").gameObject.SetActive(true);
         playPause_button.transform.Find("pause_image").gameObject.SetActive(false);
     }
 
+    public bool isPaused()
+    {
+        return videoPlayer.GetComponent<VideoPlayer>().isPaused;
+    }
     
     private void LoadWork()
     {
@@ -203,7 +207,6 @@ public class DisplayLogic_Video : MonoBehaviour
         }
 
         Pause();
-        setVideoThumbnail();
     }
 
     private void SetProjectButtonColors(int index)
@@ -238,26 +241,6 @@ public class DisplayLogic_Video : MonoBehaviour
     private void initiateCameraInUI()  // take scene camera and put it into UI Canvas to allow interaction
     {
         UI_interface.GetComponent<Canvas>().worldCamera = SceneCamera;
-    }
-
-    private void setVideoThumbnail()        // grab texture of first frame from current video and then set it to the color of the thumbnail material
-    {
-        /*
-        videoWallThumbnail_model.SetActive(true);
-        videoPlayer.GetComponent<VideoPlayer>().time = 0;
-        videoPlayer.GetComponent<VideoPlayer>().Play();
-        Texture thumbnail = videoPlayer.GetComponent<VideoPlayer>().texture;
-        
-        //videoWallThumbnail_model.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", thumbnail);
-        //videoWallThumbnail_model.GetComponent<MeshRenderer>().material.SetTexture("_EmissionMap", thumbnail);
-        //videoWallThumbnail_model.GetComponent<MeshRenderer>().sharedMaterial.SetColor("_MainTex", Color.red);
-        videoWallThumbnail_model.GetComponent<MeshRenderer>().material.EnableKeyword("_MAINTEX");
-        videoWallThumbnail_model.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", bruh);
-        
-        videoPlayer.GetComponent<VideoPlayer>().Pause();
-        */
-        
-        // doesnt work lmfao
     }
 
     private void SetAudioSource()
