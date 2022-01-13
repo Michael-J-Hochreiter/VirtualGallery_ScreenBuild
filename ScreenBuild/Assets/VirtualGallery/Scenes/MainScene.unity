@@ -1340,14 +1340,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1345349518}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: af01621a295a5ce459178660989ca97a, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: af01621a295a5ce459178660989ca97a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.018258857
-      objectReference: {fileID: 0}
     - target: {fileID: 787484305151267521, guid: 967de7bc9e4465841ab572e158e953d2, type: 3}
       propertyPath: Audios.Array.data[0]
       value: 
@@ -1371,6 +1363,18 @@ PrefabInstance:
     - target: {fileID: 1514555300211439135, guid: 967de7bc9e4465841ab572e158e953d2, type: 3}
       propertyPath: m_Name
       value: Audio_Display_1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af01621a295a5ce459178660989ca97a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af01621a295a5ce459178660989ca97a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.018258857
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: af01621a295a5ce459178660989ca97a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.02834394
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af01621a295a5ce459178660989ca97a, type: 3}
       propertyPath: m_LocalScale.z
@@ -10663,7 +10667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 6205028796379293475}
-  buttonHint: {fileID: 120069132}
+  buttonHint: {fileID: 0}
   player: {fileID: 413511618}
   teleport3D: {fileID: 325455497}
   teleport2D: {fileID: 748529056}
@@ -10672,7 +10676,8 @@ MonoBehaviour:
   teleportCode: {fileID: 2080886082}
   teleportLobby: {fileID: 222483381}
   backButton: {fileID: 1274115638}
-  interactionHintText: {fileID: 1034792850}
+  interactionHintText: {fileID: 0}
+  displayParent: {fileID: 1761410575}
 --- !u!114 &6205028797054874562
 MonoBehaviour:
   m_ObjectHideFlags: 0
