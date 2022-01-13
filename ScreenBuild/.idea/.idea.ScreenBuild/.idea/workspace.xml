@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c859c430-e741-4d16-ae22-76c8c1b066d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Code/Dependencies/projectButton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Code/Dependencies/projectButton.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Video/Dependencies/projectButton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Video/Dependencies/projectButton.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Code/Code_Display_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Code/Code_Display_Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Video/Video_Display_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Video/Video_Display_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <workItem from="1641888962160" duration="8178000" />
       <workItem from="1641905212839" duration="1039000" />
       <workItem from="1641998416454" duration="4161000" />
-      <workItem from="1642063986733" duration="2277000" />
+      <workItem from="1642063986733" duration="2290000" />
     </task>
     <servers />
   </component>
