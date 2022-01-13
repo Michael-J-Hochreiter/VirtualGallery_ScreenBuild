@@ -41,25 +41,21 @@ namespace VirtualGallery.Scripts
         {
             GameObject audioDisplaysParent = displayParent.transform.Find("Audio").gameObject;
             GameObject videoDisplaysParent = displayParent.transform.Find("Video").gameObject;
-            //GameObject codeDisplaysParent = displayParent.transform.Find("Code").gameObject;
+            GameObject codeDisplaysParent = displayParent.transform.Find("Code").gameObject;
 
+            // find all displays to play/pause and add them to the lists 
             for (int i = 0; i < audioDisplaysParent.transform.childCount; i++)
             {
                 audioDisplays.Add(audioDisplaysParent.transform.GetChild(i).gameObject);
             }
-            
             for (int i = 0; i < videoDisplaysParent.transform.childCount; i++)
             {
                 videoDisplays.Add(videoDisplaysParent.transform.GetChild(i).gameObject);
             }
-
-            /*
             for (int i = 0; i < codeDisplaysParent.transform.childCount; i++)
             {
-                codeDisplays.Add(audioDisplaysParent.transform.GetChild(i).gameObject);
+                codeDisplays.Add(codeDisplaysParent.transform.GetChild(i).gameObject);
             }
-            */
-            
         }
 
         void Update()
@@ -90,9 +86,7 @@ namespace VirtualGallery.Scripts
             pauseMenu.SetActive(false);
             _gameIsPaused = false;
             firstPersonLook.enabled = true;
-            Time.timeScale = 1f; 
-            
-            PlayPauseDisplays();
+            Time.timeScale = 1f;
         }
 
         void Pause()
@@ -112,7 +106,7 @@ namespace VirtualGallery.Scripts
 
             Time.timeScale = 0f;
 
-            PlayPauseDisplays();
+            PauseDisplays();
         }
 
         public void Restart()
@@ -184,24 +178,20 @@ namespace VirtualGallery.Scripts
             player.transform.position = teleportLobby.transform.position;
         }
 
-        private void PlayPauseDisplays()   // pause all displays that have video or audio or both
+        private void PauseDisplays()
         {
-
             for (int i = 0; i < audioDisplays.Count; i++)
             {
-                audioDisplays[i].GetComponent<DisplayLogic_Audio>().PlayPause();
+                audioDisplays[i].GetComponent<DisplayLogic_Audio>().Pause();
             }
             for (int i = 0; i < videoDisplays.Count; i++)
             {
-                videoDisplays[i].GetComponent<DisplayLogic_Video>().PlayPause();
-                //videoDisplays[i].GetComponent<DisplayLogic_Video>().pla
+                videoDisplays[i].GetComponent<DisplayLogic_Video>().Pause();
             }
-            /*
             for (int i = 0; i < codeDisplays.Count; i++)
             {
-                codeDisplays[i].GetComponent<DisplayLogic_Code>().PlayPause();
-            }
-            */
+                codeDisplays[i].GetComponent<DisplayLogic_Code>().Pause();
+            } 
         }
     }
 }
