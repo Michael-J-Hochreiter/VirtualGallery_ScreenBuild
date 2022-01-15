@@ -121,21 +121,6 @@ namespace VirtualGallery.Scripts
             Application.Quit();
         }
 
-        public void ChangeMode()
-        {
-            var text = GameObject.Find("ThemeButton").GetComponentInChildren<TextMeshProUGUI>().text;
-
-            switch (text)
-            {
-                case "LIGHT":
-                    GameObject.Find("ThemeButton").GetComponentInChildren<TextMeshProUGUI>().text = "DARK";
-                    break;
-                case "DARK":
-                    GameObject.Find("ThemeButton").GetComponentInChildren<TextMeshProUGUI>().text = "LIGHT";
-                    break;
-            }
-        }
-
         public void Teleport3D()
         {
             Resume();
