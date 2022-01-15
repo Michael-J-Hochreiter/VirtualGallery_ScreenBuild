@@ -9,7 +9,7 @@ using UnityEngine.Video;
   
 public class DisplayLogic_Code : MonoBehaviour
 {
-    private const int numWorks = 2;     // total number of works in 3D-display
+    private const int numWorks = 5;     // total number of works in 3D-display
     private const int numProjects = 3;      // total number of projects (colletions of works) to be displayed in video-display
     private int indexWorks = 0;      // indicates which of the works is currently displayed
     private int indexProjects = 0;      // indicated which of the projects is currently selected
