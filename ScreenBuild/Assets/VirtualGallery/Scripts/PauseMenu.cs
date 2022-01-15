@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -119,21 +117,6 @@ namespace VirtualGallery.Scripts
         public void QuitGame()
         {
             Application.Quit();
-        }
-
-        public void ChangeMode()
-        {
-            var text = GameObject.Find("ThemeButton").GetComponentInChildren<TextMeshProUGUI>().text;
-
-            switch (text)
-            {
-                case "LIGHT":
-                    GameObject.Find("ThemeButton").GetComponentInChildren<TextMeshProUGUI>().text = "DARK";
-                    break;
-                case "DARK":
-                    GameObject.Find("ThemeButton").GetComponentInChildren<TextMeshProUGUI>().text = "LIGHT";
-                    break;
-            }
         }
 
         public void Teleport3D()
