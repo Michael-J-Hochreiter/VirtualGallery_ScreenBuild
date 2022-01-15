@@ -2205,6 +2205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3D_Display_Fractal
       objectReference: {fileID: 0}
+    - target: {fileID: 9167047690417066065, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
 --- !u!4 &540772801 stripped
@@ -2387,7 +2391,7 @@ PrefabInstance:
     - target: {fileID: 6030498123377024218, guid: f229446d243f76e46af3f683af9630cb, type: 3}
       propertyPath: project1Videos.Array.data[2]
       value: 
-      objectReference: {fileID: 32900000, guid: 3b31f8963d5ffae45beaf7af62c0239c, type: 3}
+      objectReference: {fileID: 32900000, guid: ba4ccce79efeadf49b167635eb4325dd, type: 3}
     - target: {fileID: 6030498123377024218, guid: f229446d243f76e46af3f683af9630cb, type: 3}
       propertyPath: project2Videos.Array.data[0]
       value: 
@@ -2434,7 +2438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6030498123377024218, guid: f229446d243f76e46af3f683af9630cb, type: 3}
       propertyPath: project1CreatorNames.Array.data[2]
-      value: Salome Wirnsperger
+      value: Haas, Pulter & Schoibesberger
       objectReference: {fileID: 0}
     - target: {fileID: 6030498123377024218, guid: f229446d243f76e46af3f683af9630cb, type: 3}
       propertyPath: project2CreatorNames.Array.data[0]
@@ -2591,6 +2595,42 @@ PrefabInstance:
       propertyPath: projectInfo
       value: __INSERT_DESCRIPTION__
       objectReference: {fileID: 0}
+    - target: {fileID: 5655302571447904507, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
+      propertyPath: Names.Array.data[0]
+      value: Nico Hartl
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655302571447904507, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
+      propertyPath: Names.Array.data[1]
+      value: "Roman G\xF6kler"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655302571447904507, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
+      propertyPath: Names.Array.data[2]
+      value: Marlene Kremsmayr
+      objectReference: {fileID: 0}
+    - target: {fileID: 5655302571447904507, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
+      propertyPath: renderImages1.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3b22d412b7347f04aae76d17b213362f, type: 3}
+    - target: {fileID: 5655302571447904507, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
+      propertyPath: renderImages1.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 2709617d605a0e04e808b318be425d28, type: 3}
+    - target: {fileID: 5655302571447904507, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
+      propertyPath: renderImages1.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: 5863bd9d5f6996949b478c9c59a25ce6, type: 3}
+    - target: {fileID: 5655302571447904507, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
+      propertyPath: renderImages2.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 796d8091c24ffff4494506593a5e3e60, type: 3}
+    - target: {fileID: 5655302571447904507, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
+      propertyPath: renderImages2.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: b286d8d854a8a124db2c8874bd5c8240, type: 3}
+    - target: {fileID: 5655302571447904507, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
+      propertyPath: renderImages2.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: 4e2bfb9b7e049944a87ad3076278f31b, type: 3}
     - target: {fileID: 9167047690417066065, guid: f21687c8d74d5364b9fb61818253e104, type: 3}
       propertyPath: m_Name
       value: 3D_Display_Toy
