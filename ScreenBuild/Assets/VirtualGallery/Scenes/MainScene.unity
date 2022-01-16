@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1639617028}
-  m_IndirectSpecularColor: {r: 0.448052, g: 0.49806136, b: 0.5755226, a: 1}
+  m_IndirectSpecularColor: {r: 0.44805467, g: 0.49806178, b: 0.57552505, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -793,6 +793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: minature_audio
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9bc06648f32a64348959c55a304da411, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bc06648f32a64348959c55a304da411, type: 3}
 --- !u!4 &175358429 stripped
@@ -1315,6 +1319,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: af01621a295a5ce459178660989ca97a, type: 3}
       propertyPath: m_Name
       value: minature_2d
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af01621a295a5ce459178660989ca97a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af01621a295a5ce459178660989ca97a, type: 3}
@@ -3047,6 +3055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: minature_audio (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9bc06648f32a64348959c55a304da411, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bc06648f32a64348959c55a304da411, type: 3}
 --- !u!4 &698397276 stripped
@@ -3973,10 +3985,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6938407363355273939, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -6745907757092107840, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -5770147364003215288, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a1b8f4d1636e6884b9ca0dabe72d0321, type: 2}
+    - target: {fileID: -1773305607647183565, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -1728285132646212080, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -498906788600398988, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3996,6 +4024,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Name
       value: Raum_smallModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2676387928833186230, guid: 63cf2c9b2d9a84445b7374dc656f5b74, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4504,6 +4536,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: af01621a295a5ce459178660989ca97a, type: 3}
       propertyPath: m_Name
       value: minature_2d (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af01621a295a5ce459178660989ca97a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af01621a295a5ce459178660989ca97a, type: 3}
@@ -5496,6 +5532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LobbyTable
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 547f6c28e70ece74d9f196770ed26c1d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 547f6c28e70ece74d9f196770ed26c1d, type: 3}
 --- !u!4 &1123585458 stripped
@@ -5606,6 +5646,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 68fd6a6db3f744f4e8f298e5edac89fc, type: 3}
       propertyPath: m_Name
       value: minature_code
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 68fd6a6db3f744f4e8f298e5edac89fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68fd6a6db3f744f4e8f298e5edac89fc, type: 3}
@@ -5818,6 +5862,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 841c046e5c9c6e74fba36d8919a62eaa, type: 3}
       propertyPath: m_Name
       value: minature_3d
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 841c046e5c9c6e74fba36d8919a62eaa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 841c046e5c9c6e74fba36d8919a62eaa, type: 3}
@@ -7890,6 +7938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: minature_3d (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 841c046e5c9c6e74fba36d8919a62eaa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 841c046e5c9c6e74fba36d8919a62eaa, type: 3}
 --- !u!4 &1324815046 stripped
@@ -8586,6 +8638,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 68fd6a6db3f744f4e8f298e5edac89fc, type: 3}
       propertyPath: m_Name
       value: minature_video
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 68fd6a6db3f744f4e8f298e5edac89fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68fd6a6db3f744f4e8f298e5edac89fc, type: 3}
@@ -10238,13 +10294,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639617027}
-  m_LocalRotation: {x: 0.38495734, y: -0.09080652, z: 0.046734765, w: 0.91726655}
+  m_LocalRotation: {x: 0.3748962, y: 0.255324, z: -0.09914222, w: 0.8856824}
   m_LocalPosition: {x: -1.1450111, y: 9.19, z: -0.58518994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 45.619, y: -10.762, z: 1.296}
+  m_LocalEulerAnglesHint: {x: 45.619, y: 32.708, z: 1.296}
 --- !u!1 &1659836765
 GameObject:
   m_ObjectHideFlags: 0
@@ -12569,6 +12625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: minature_2d (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: af01621a295a5ce459178660989ca97a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af01621a295a5ce459178660989ca97a, type: 3}
 --- !u!4 &2017898897 stripped
@@ -12771,6 +12831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: minature_3d (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 841c046e5c9c6e74fba36d8919a62eaa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 841c046e5c9c6e74fba36d8919a62eaa, type: 3}
 --- !u!4 &2042345512 stripped
@@ -12848,6 +12912,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9bc06648f32a64348959c55a304da411, type: 3}
       propertyPath: m_Name
       value: minature_audio (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9bc06648f32a64348959c55a304da411, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bc06648f32a64348959c55a304da411, type: 3}
