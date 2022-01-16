@@ -36,6 +36,9 @@ namespace VirtualGallery.Scripts
                 // Rotate camera and controller.
                 transform.localRotation = Quaternion.AngleAxis(-currentMouseLook.y, Vector3.right);
                 character.localRotation = Quaternion.AngleAxis(currentMouseLook.x, Vector3.up);
+                
+                
+                Debug.Log(currentMouseLook.x);
             }
 
             if (Input.GetKey(KeyCode.Space))
@@ -70,7 +73,7 @@ namespace VirtualGallery.Scripts
 
         public void SetLookAngle(float x, float y)
         {
-            currentMouseLook.x = Mathf.Clamp(x, -90, 90);
+            currentMouseLook.x = Mathf.Clamp(x, -360, 360);
             currentMouseLook.y = Mathf.Clamp(y, -90, 90);
         }
     }

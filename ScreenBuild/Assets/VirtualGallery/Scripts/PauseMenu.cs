@@ -122,36 +122,36 @@ namespace VirtualGallery.Scripts
         public void Teleport3D()
         {
             Resume();
-            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(-71, 0);
             player.transform.position = teleport3D.transform.position;
         }
 
         public void Teleport2D()
         {
             Resume();
-            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(103, 0);
             player.transform.position = teleport2D.transform.position;
         }
 
         public void TeleportCode()
         {
             Resume();
-            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
-            player.transform.position = teleportVideo.transform.position;
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(183, -12);
+            player.transform.position = teleportCode.transform.position;
         }
 
         public void TeleportVideo()
         {
             Resume();
-            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
-            player.transform.position = teleportAudio.transform.position;
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(2, -12);
+            player.transform.position = teleportVideo.transform.position;
         }
 
         public void TeleportAudio()
         {
             Resume();
-            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(0, 0);
-            player.transform.position = teleportCode.transform.position;
+            GameObject.Find("First person camera").GetComponent<FirstPersonLook>().SetLookAngle(146, 0);
+            player.transform.position = teleportAudio.transform.position;
         }
 
         public void TeleportLobby()
