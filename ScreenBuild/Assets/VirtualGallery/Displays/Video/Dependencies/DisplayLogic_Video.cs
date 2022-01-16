@@ -9,7 +9,7 @@ using UnityEngine.Video;
   
 public class DisplayLogic_Video : MonoBehaviour
 {
-    private const int numWorks = 2;     // total number of works in 3D-display
+    private const int numWorks = 3;     // total number of works in 3D-display
     private const int numProjects = 3;      // total number of projects (colletions of works) to be displayed in video-display
     private int indexWorks = 0;      // indicates which of the works is currently displayed
     private int indexProjects = 0;      // indicated which of the projects is currently selected
@@ -116,7 +116,7 @@ public class DisplayLogic_Video : MonoBehaviour
         }
     }
 
-    private void Play()
+    public void Play()
     {
         videoPlayer.GetComponent<VideoPlayer>().Prepare();
         videoPlayer.GetComponent<VideoPlayer>().Play();
@@ -125,13 +125,17 @@ public class DisplayLogic_Video : MonoBehaviour
         
     }
     
-    private void Pause()
+    public void Pause()
     {
         videoPlayer.GetComponent<VideoPlayer>().Pause();
         playPause_button.transform.Find("play_image").gameObject.SetActive(true);
         playPause_button.transform.Find("pause_image").gameObject.SetActive(false);
     }
 
+    public bool isPaused()
+    {
+        return videoPlayer.GetComponent<VideoPlayer>().isPaused;
+    }
     
     private void LoadWork()
     {
@@ -203,25 +207,33 @@ public class DisplayLogic_Video : MonoBehaviour
         }
 
         Pause();
-        setVideoThumbnail();
     }
 
     private void SetProjectButtonColors(int index)
     {
-        UI_interface.transform.Find("project0_button").gameObject.GetComponent<Image>().color = Color.grey;
-        UI_interface.transform.Find("project1_button").gameObject.GetComponent<Image>().color = Color.grey;
-        UI_interface.transform.Find("project2_button").gameObject.GetComponent<Image>().color = Color.grey;
+        Vector4 selectedColor = new Vector4(0.1529412f, 0.5882353f, 0.8588235f, 0.8f);
+        Vector4 unselectedColor = new Vector4(1.0f, 1.0f, 1.0f, 0.6f);
         
+        var selectedButtonColors =  UI_interface.transform.Find("project0_button").gameObject.GetComponent<Button>().colors;
+        var unselectedButtonColors = selectedButtonColors;
+        
+        selectedButtonColors.normalColor = selectedColor;
+        unselectedButtonColors.normalColor = unselectedColor;
+        
+        UI_interface.transform.Find("project0_button").gameObject.GetComponent<Button>().colors = unselectedButtonColors;
+        UI_interface.transform.Find("project1_button").gameObject.GetComponent<Button>().colors = unselectedButtonColors;
+        UI_interface.transform.Find("project2_button").gameObject.GetComponent<Button>().colors = unselectedButtonColors;
+
         switch (index)      // change color of buttons in UI so signal selected project
         {
             case 0:
-                UI_interface.transform.Find("project0_button").gameObject.GetComponent<Image>().color = Color.green;
+                UI_interface.transform.Find("project0_button").gameObject.GetComponent<Button>().colors = selectedButtonColors;
                 break;
             case 1:
-                UI_interface.transform.Find("project1_button").gameObject.GetComponent<Image>().color = Color.green;
+                UI_interface.transform.Find("project1_button").gameObject.GetComponent<Button>().colors = selectedButtonColors;
                 break;
             case 2:
-                UI_interface.transform.Find("project2_button").gameObject.GetComponent<Image>().color = Color.green;
+                UI_interface.transform.Find("project2_button").gameObject.GetComponent<Button>().colors = selectedButtonColors;
                 break;
         }
     }
@@ -229,26 +241,6 @@ public class DisplayLogic_Video : MonoBehaviour
     private void initiateCameraInUI()  // take scene camera and put it into UI Canvas to allow interaction
     {
         UI_interface.GetComponent<Canvas>().worldCamera = SceneCamera;
-    }
-
-    private void setVideoThumbnail()        // grab texture of first frame from current video and then set it to the color of the thumbnail material
-    {
-        /*
-        videoWallThumbnail_model.SetActive(true);
-        videoPlayer.GetComponent<VideoPlayer>().time = 0;
-        videoPlayer.GetComponent<VideoPlayer>().Play();
-        Texture thumbnail = videoPlayer.GetComponent<VideoPlayer>().texture;
-        
-        //videoWallThumbnail_model.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", thumbnail);
-        //videoWallThumbnail_model.GetComponent<MeshRenderer>().material.SetTexture("_EmissionMap", thumbnail);
-        //videoWallThumbnail_model.GetComponent<MeshRenderer>().sharedMaterial.SetColor("_MainTex", Color.red);
-        videoWallThumbnail_model.GetComponent<MeshRenderer>().material.EnableKeyword("_MAINTEX");
-        videoWallThumbnail_model.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", bruh);
-        
-        videoPlayer.GetComponent<VideoPlayer>().Pause();
-        */
-        
-        // doesnt work lmfao
     }
 
     private void SetAudioSource()

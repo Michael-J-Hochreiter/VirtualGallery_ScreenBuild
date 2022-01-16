@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace VirtualArtGalleryAssets.scripts
+namespace VirtualGallery.Scripts
 {
     public class FirstPersonMovement : MonoBehaviour
     {
