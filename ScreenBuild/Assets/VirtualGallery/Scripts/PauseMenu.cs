@@ -25,7 +25,8 @@ namespace VirtualGallery.Scripts
         public GameObject teleportCode;
         public GameObject teleportLobby;
         
-        public Button backButton;
+        public Button backButtonControls;
+        public Button backButtonCredits;
         public TextMeshProUGUI interactionHintText;
 
         public GameObject displayParent;
@@ -79,9 +80,12 @@ namespace VirtualGallery.Scripts
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
 
-            backButton.onClick.Invoke();
+            backButtonControls.onClick.Invoke();
+            backButtonCredits.onClick.Invoke();
+            
             buttonHint.SetActive(true);
             pauseMenu.SetActive(false);
+            
             _gameIsPaused = false;
             firstPersonLook.enabled = true;
             Time.timeScale = 1f;
@@ -92,7 +96,6 @@ namespace VirtualGallery.Scripts
             GameObject.Find("First person camera").GetComponent<FirstPersonLook>().ResetSmoothing();
             var firstPersonLook = GameObject.Find("First person camera").GetComponent<FirstPersonLook>();
             
-
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
 

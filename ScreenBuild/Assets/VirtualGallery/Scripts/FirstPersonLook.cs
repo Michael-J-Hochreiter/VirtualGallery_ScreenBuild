@@ -37,8 +37,8 @@ namespace VirtualGallery.Scripts
                 transform.localRotation = Quaternion.AngleAxis(-currentMouseLook.y, Vector3.right);
                 character.localRotation = Quaternion.AngleAxis(currentMouseLook.x, Vector3.up);
                 
-                
-                Debug.Log(currentMouseLook.x);
+                //Show player look angle
+                //Debug.Log(currentMouseLook.x);
             }
 
             if (Input.GetKey(KeyCode.Space))
