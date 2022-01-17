@@ -128,6 +128,7 @@ public class DisplayLogic_3D : MonoBehaviour
         for (int i = 0; i < numWorks; i++)
         {
             works_models.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>().sharedMaterial = wireframeMaterial;
+            works_models.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>().material = wireframeMaterial;
         }
     }
     
@@ -138,6 +139,7 @@ public class DisplayLogic_3D : MonoBehaviour
         for (int i = 0; i < numWorks; i++)
         {
             works_models.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>().sharedMaterial = shadedMaterial;
+            works_models.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>().material = shadedMaterial;
         }
     }
 

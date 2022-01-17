@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c859c430-e741-4d16-ae22-76c8c1b066d2" name="Changes" comment="" />
+    <list default="true" id="c859c430-e741-4d16-ae22-76c8c1b066d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/Dependencies/DisplayLogic_3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/Dependencies/DisplayLogic_3D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work1_image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work1_image1.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work1_image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work1_image2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work1_model.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work1_model.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work2_image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work2_image1.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work2_image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work2_image2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work2_model.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work2_model.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work3_image1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work3_image1.JPG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work3_image2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work3_image2.JPG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work3_model.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Resources/3D/Display_TEST/Work3_model.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +108,7 @@
       <workItem from="1642248975126" duration="2114000" />
       <workItem from="1642267460865" duration="1218000" />
       <workItem from="1642332251807" duration="1551000" />
+      <workItem from="1642438905938" duration="1682000" />
     </task>
     <servers />
   </component>
