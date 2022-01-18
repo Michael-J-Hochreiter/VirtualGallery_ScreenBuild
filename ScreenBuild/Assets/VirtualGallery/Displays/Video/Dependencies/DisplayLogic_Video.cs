@@ -74,9 +74,10 @@ public class DisplayLogic_Video : MonoBehaviour
         indexProjects = index;
         
         SetProjectButtonColors(index);
+        SetAudioSource();
         SetProjectInfo();
         LoadWork();
-        Pause();
+        //Pause();
     }
 
     public void NextWork()  // call LoadWork() with increased index -> cycle through works inside project
@@ -184,7 +185,7 @@ public class DisplayLogic_Video : MonoBehaviour
 
     private void SetVideoClip()
     {
-        videoPlayer.GetComponent<VideoPlayer>().clip = project0Videos[indexWorks];
+        //videoPlayer.GetComponent<VideoPlayer>().clip = project0Videos[indexWorks];
             
         switch (indexProjects)
         {
@@ -199,7 +200,7 @@ public class DisplayLogic_Video : MonoBehaviour
                 break;
         }
 
-        Pause();
+        //Pause();
     }
 
     private void SetProjectButtonColors(int index)
