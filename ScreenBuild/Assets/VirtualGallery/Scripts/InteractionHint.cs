@@ -12,7 +12,7 @@ namespace VirtualGallery.Scripts
         {
             if (Time.timeSinceLevelLoad > duration || Input.GetKey(KeyCode.Space))
             {
-                interactionHintText.CrossFadeAlpha(0, 0.3f, false);
+                interactionHintText.CrossFadeAlpha(0, 0.2f, false);
             }
         }
     }
