@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c859c430-e741-4d16-ae22-76c8c1b066d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Audio/FadeMixerGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Audio/FadeMixerGroup.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Video/Dependencies/DisplayLogic_Video.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Video/Dependencies/DisplayLogic_Video.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/VirtualGallery/Scripts/TeleportationHint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VirtualGallery/Audio/FadeMixerGroup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="239VUxyHblDFL2RPfBOJTXZvHBy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -95,7 +100,7 @@
       <workItem from="1642438905938" duration="2273000" />
       <workItem from="1642448460203" duration="600000" />
       <workItem from="1642507209088" duration="5394000" />
-      <workItem from="1642523640870" duration="1513000" />
+      <workItem from="1642523640870" duration="2439000" />
     </task>
     <servers />
   </component>

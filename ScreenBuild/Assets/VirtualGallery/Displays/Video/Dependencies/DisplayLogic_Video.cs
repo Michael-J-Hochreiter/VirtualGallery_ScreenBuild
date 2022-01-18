@@ -101,18 +101,11 @@ public class DisplayLogic_Video : MonoBehaviour
     {
         if (videoPlayer.GetComponent<VideoPlayer>().isPlaying)
         {
-            
-            videoPlayer.GetComponent<VideoPlayer>().Pause();
-            playPause_button.transform.Find("play_image").gameObject.SetActive(true);
-            playPause_button.transform.Find("pause_image").gameObject.SetActive(false);
+            Pause();
         }
         else
         {
-            videoPlayer.GetComponent<VideoPlayer>().Prepare();
-            videoPlayer.GetComponent<VideoPlayer>().Play();
-            playPause_button.transform.Find("play_image").gameObject.SetActive(false);
-            playPause_button.transform.Find("pause_image").gameObject.SetActive(true);
-            
+            Play();
         }
     }
 
