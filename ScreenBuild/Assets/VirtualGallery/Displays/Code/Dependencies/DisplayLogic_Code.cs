@@ -59,10 +59,11 @@ public class DisplayLogic_Code : MonoBehaviour
         audioSource = gameObject.transform.Find("audioSource").gameObject.GetComponent<AudioSource>();
         playPause_button = gameObject.transform.Find("UI").Find("UI_interface").Find("playPause_button").gameObject;
         
+        SetAudioSource();
         initiateCameraInUI();
         SetProjectTitles();
         LoadProject(0);
-        SetAudioSource();
+
         
         videoPlayer.GetComponent<VideoPlayer>().targetTexture.Release();
         

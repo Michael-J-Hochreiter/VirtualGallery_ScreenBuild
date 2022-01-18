@@ -59,11 +59,11 @@ public class DisplayLogic_Video : MonoBehaviour
         audioSource = gameObject.transform.Find("audioSource").gameObject.GetComponent<AudioSource>();
         playPause_button = gameObject.transform.Find("UI").Find("UI_interface").Find("playPause_button").gameObject;
         
+        SetAudioSource();
         initiateCameraInUI();
         SetProjectTitles();
         LoadProject(0);
-        SetAudioSource();
-        
+
         videoPlayer.GetComponent<VideoPlayer>().targetTexture.Release();
         
         Pause();
@@ -101,18 +101,11 @@ public class DisplayLogic_Video : MonoBehaviour
     {
         if (videoPlayer.GetComponent<VideoPlayer>().isPlaying)
         {
-            
-            videoPlayer.GetComponent<VideoPlayer>().Pause();
-            playPause_button.transform.Find("play_image").gameObject.SetActive(true);
-            playPause_button.transform.Find("pause_image").gameObject.SetActive(false);
+            Pause();
         }
         else
         {
-            videoPlayer.GetComponent<VideoPlayer>().Prepare();
-            videoPlayer.GetComponent<VideoPlayer>().Play();
-            playPause_button.transform.Find("play_image").gameObject.SetActive(false);
-            playPause_button.transform.Find("pause_image").gameObject.SetActive(true);
-            
+            Play();
         }
     }
 
