@@ -2607,7 +2607,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3426b1672b40913479b44fa18c4fbe14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0a21441bd3ba09541a3f0889e14dbbe5, type: 2}
+      objectReference: {fileID: 2100000, guid: c8a368a496d23a94e8da6f5f1ac7e4da, type: 2}
     - target: {fileID: 919132149155446097, guid: 3426b1672b40913479b44fa18c4fbe14, type: 3}
       propertyPath: m_Name
       value: 2D_display_table
