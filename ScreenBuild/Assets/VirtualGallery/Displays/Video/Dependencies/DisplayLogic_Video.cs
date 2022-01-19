@@ -66,7 +66,7 @@ public class DisplayLogic_Video : MonoBehaviour
 
         videoPlayer.GetComponent<VideoPlayer>().targetTexture.Release();
         
-        //Pause();
+        Pause();
     }
     
     public void LoadProject(int index)   // loads the project with index given by parameter
