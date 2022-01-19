@@ -24,7 +24,6 @@ public class DisplayLogic_3D : MonoBehaviour
     private GameObject UI_interface;
     private GameObject UI_images;
     private GameObject UI_projectInfo;
-
     private GameObject createdBy_text;
     private GameObject projectInfo_text;
     private UnityEngine.UI.Image image1 = null;
@@ -125,7 +124,7 @@ public class DisplayLogic_3D : MonoBehaviour
     public void ShadeWireframe()
     {
 
-        for (int i = 0; i < numWorks; i++)
+        for (int i = 0; i < Names.Length; i++)
         {
             works_models.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>().sharedMaterial = wireframeMaterial;
             works_models.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>().material = wireframeMaterial;
@@ -136,7 +135,7 @@ public class DisplayLogic_3D : MonoBehaviour
     public void ShadeSolid()
     {
 
-        for (int i = 0; i < numWorks; i++)
+        for (int i = 0; i < Names.Length; i++)
         {
             works_models.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>().sharedMaterial = shadedMaterial;
             works_models.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>().material = shadedMaterial;
@@ -145,7 +144,7 @@ public class DisplayLogic_3D : MonoBehaviour
 
     private void InitiateMatierals() // set materials for all works
     {
-        for (int i = 0; i < numWorks; i++)
+        for (int i = 0; i < Names.Length; i++)
         {
             works_models.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>().sharedMaterial = shadedMaterial;
         }

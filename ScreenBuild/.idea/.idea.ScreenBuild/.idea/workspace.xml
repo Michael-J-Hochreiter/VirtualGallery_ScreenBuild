@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c859c430-e741-4d16-ae22-76c8c1b066d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScreenBuild/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/Dependencies/DisplayLogic_3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/3D/Dependencies/DisplayLogic_3D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Dependencies/DisplayLogic_Audio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Audio/Dependencies/DisplayLogic_Audio.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Code/Dependencies/DisplayLogic_Code.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Code/Dependencies/DisplayLogic_Code.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Video/Dependencies/DisplayLogic_Video.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Displays/Video/Dependencies/DisplayLogic_Video.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VirtualGallery/Scenes/MainScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +101,7 @@
       <workItem from="1642507209088" duration="5394000" />
       <workItem from="1642523640870" duration="3139000" />
       <workItem from="1642540548776" duration="218000" />
+      <workItem from="1642602942712" duration="1125000" />
     </task>
     <servers />
   </component>
