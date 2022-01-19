@@ -19,7 +19,7 @@ public class DisplayLogic_Audio : MonoBehaviour
     private GameObject playPause_button;
     private AudioSource localAudioSource;   // local audio source that plays clips of this display
     private float globalAudioMaxVolume = 0.1f;    // maximum volume of scene audio 
-    private float globalAudioMinVolume = 0.1f;     // minimum volume of scene audio 
+    private float globalAudioMinVolume = 0.03f;     // minimum volume of scene audio 
     
     void Start()
     {
@@ -31,6 +31,7 @@ public class DisplayLogic_Audio : MonoBehaviour
         SetProjectInfo();
         LoadWork();
         initiateCameraInUI();
+        Pause();
     }
     
     public void NextWork()  // call LoadWork() with increased index
@@ -55,17 +56,11 @@ public class DisplayLogic_Audio : MonoBehaviour
     {
         if (localAudioSource.isPlaying)
         {
-            GlobalAudioSource.volume = globalAudioMaxVolume;
-            localAudioSource.Pause();
-            playPause_button.transform.Find("play_image").gameObject.SetActive(true);
-            playPause_button.transform.Find("pause_image").gameObject.SetActive(false);
+            Pause();
         }
         else
         {
-            GlobalAudioSource.volume = globalAudioMinVolume;
-            localAudioSource.Play();
-            playPause_button.transform.Find("play_image").gameObject.SetActive(false);
-            playPause_button.transform.Find("pause_image").gameObject.SetActive(true);
+            Play();
         }
     }
 
@@ -94,7 +89,8 @@ public class DisplayLogic_Audio : MonoBehaviour
     {
         SetCreatorName();
         SetAudioClip();
-        Pause();
+        Play();
+        //Pause();
     }
     
     private void SetProjectInfo()

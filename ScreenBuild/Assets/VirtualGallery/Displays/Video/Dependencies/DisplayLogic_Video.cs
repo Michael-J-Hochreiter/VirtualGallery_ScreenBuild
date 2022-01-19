@@ -66,7 +66,7 @@ public class DisplayLogic_Video : MonoBehaviour
 
         videoPlayer.GetComponent<VideoPlayer>().targetTexture.Release();
         
-        //Pause();
+        Pause();
     }
     
     public void LoadProject(int index)   // loads the project with index given by parameter
@@ -82,7 +82,7 @@ public class DisplayLogic_Video : MonoBehaviour
 
     public void NextWork()  // call LoadWork() with increased index -> cycle through works inside project
     {
-        indexWorks = (indexWorks + 1) % numWorks;   // cycle through index forwards
+        indexWorks = (indexWorks + 1) % project0CreatorNames.Length;   // cycle through index forwards
         
         LoadWork();
     }
@@ -92,7 +92,7 @@ public class DisplayLogic_Video : MonoBehaviour
         indexWorks -= 1;
         if (indexWorks < 0) // cycle through index backwards
         {
-            indexWorks = numWorks - 1;
+            indexWorks = project0CreatorNames.Length - 1;
         }
 
         LoadWork();
